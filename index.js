@@ -12,7 +12,7 @@ const print = (msg) => console.log(msg)
 const conn2 = require('knex')({
     client: 'mysql2',
     connection:{
-        host: process.env.HOST,
+        host: process.env.HOST_DB,
         user: process.env.USER,
         password: process.env.PASS,
         database: process.env.DB,
