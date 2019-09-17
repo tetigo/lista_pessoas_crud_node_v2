@@ -8,6 +8,11 @@ Link de Teste: [https://lista-pessoas-nodejs.herokuapp.com](https://lista-pessoa
      - Criar conta no [RemoteMySQL](https://remotemysql.com).
      - Criar Banco e anotar os dados de conexão.
      - Criar Tabela e editar a tabela pelo PHPMyAdmin dentro da propria plataforma.
+     - Campos:
+         + id: integer primary key
+         + nome: varchar 100
+         + nacionalidade: varchar 100
+         + cargo: varchar 100
      - Criar registro de exemplo na tabela criada.
      
      
