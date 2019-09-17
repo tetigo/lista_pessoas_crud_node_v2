@@ -5,7 +5,7 @@ const express = require('express')
 const path = require('path')
 const bodyParser = require('body-parser')
 const app = express()
-const port = process.env.PORT || 8080
+const port = process.env.PORT || 3000
 const print = (msg) => console.log(msg)
 
 const conn2 = require('knex')({
@@ -14,7 +14,7 @@ const conn2 = require('knex')({
         host: process.env.HOST,
         user: process.env.USER,
         password: process.env.PASS,
-        database: process.env.DB
+        database: process.env.DB,
     }
 })
 
