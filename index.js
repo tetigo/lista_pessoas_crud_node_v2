@@ -6,7 +6,7 @@ const path = require('path')
 const bodyParser = require('body-parser')
 const app = express()
 const port = process.env.PORT || 3000
-const host = process.env.HOST || '0.0.0.0'
+// const host = process.env.HOST || '0.0.0.0'
 const print = (msg) => console.log(msg)
 
 const conn2 = require('knex')({
